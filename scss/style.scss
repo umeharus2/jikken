@@ -1,0 +1,66 @@
+.parent {
+  font-size: 50px;
+  width: 400px;
+  background: pink;
+}
+
+span {
+  display: inline-block;
+}
+
+.test-a {
+  width: 100px;
+  height: 200px;
+  background: yellowgreen;
+  // position: relative;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // background: #000;
+  }
+  p {
+    color: white;
+  }
+}
+
+.image-content {
+  // width: 600px;
+  background: rgba($color: pink, $alpha: 0.5);
+}
+
+.images {
+  width: 100%;
+  img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+ul {
+  display: flex;
+  gap: 4%;
+  width: 500px;
+  padding: 30px;
+  li {
+    padding: 16px;
+    width: 48%;
+    background: pink;
+  }
+}
+
+.takasajikken{
+  display: flex;
+  gap: 4%;
+  a{
+    width: 40%;
+    background: #000;
+    color: white;
+  }
+}
